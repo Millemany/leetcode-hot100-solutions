@@ -24,7 +24,7 @@ x₃ = nums[x₂]
 
 ---
 
-所以本题可以使用 [leetcode 142 环形链表 II](./leetcode 142 环形链表 II) 的做法。
+所以本题可以使用 [leetcode 142 环形链表 II](<./leetcode 142 环形链表 II.md>) 的做法。
 
 时间复杂度是$`O(n)`$。
 

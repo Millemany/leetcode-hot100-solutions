@@ -1,6 +1,6 @@
 # leetcode 45 跳跃游戏 II
 
-在 [leetcode 45 跳跃游戏](./leetcode 45 跳跃游戏.md) 的基础上，添加`step`和`ed`两个变量。
+在 [leetcode 55 跳跃游戏](<./leetcode 55 跳跃游戏.md>) 的基础上，添加`step`和`ed`两个变量。
 
 `step`表示跳到**下一个**位置需要的最少步数。`ed`表示在`step`数能跳到的最远位置。
 

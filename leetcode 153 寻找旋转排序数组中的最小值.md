@@ -1,6 +1,6 @@
 # leetcode 153 寻找旋转排序数组中的最小值
 
-参看 [leetcode 33](./leetcode 33 搜索旋转排序数组.md) 。本题是其前半部分内容。
+参看 [leetcode 33](<./leetcode 33 搜索旋转排序数组.md>) 。本题是其前半部分内容。
 
  ```c++
 class Solution {
