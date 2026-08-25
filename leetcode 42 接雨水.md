@@ -8,7 +8,7 @@
 
    求解`lefth`和`righth`都可以用DP完成。也就是`lefth[i] = max(lefth[i - 1], height[i - 1])`。`righth`同理。
 
-   时间复杂度是$O(n)$。
+   时间复杂度是$`O(n)`$。
 
    ```c++
    class Solution {
@@ -56,7 +56,7 @@
       	i 入栈
    ```
 
-   时间复杂度是$O(n)$。
+   时间复杂度是$`O(n)`$。
 
    完整代码如下：
 

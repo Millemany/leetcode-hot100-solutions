@@ -4,7 +4,7 @@
 
    用`f[i]`表示以`i`结尾的最长递增子序列的长度。所以答案就是`max(f[0], f[1], ..., f[n - 1])`。
 
-   时间复杂度是$O(n^2)$。
+   时间复杂度是$`O(n^2)`$。
 
    ```c++
 class Solution {
@@ -43,7 +43,7 @@ class Solution {
 
    最后答案就是`tail`数组的长度。
 
-   时间复杂度是$O(n\log n)$。
+   时间复杂度是$`O(n\log n)`$。
 
    ```c++
    class Solution {
