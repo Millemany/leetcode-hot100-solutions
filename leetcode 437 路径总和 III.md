@@ -17,7 +17,7 @@
 
    `pathSum(root, targetSum) = dfs(root, targetSum) + pathSum(root->left, targetSum) + pathSum(root->right, targetSum)`
 
-   这是自顶向下的方法，因此时间复杂度最差是$`O(n^2)`$。如果当前的树退化成链表的话，每dfs一个结点，就要遍历一遍它下面的所有结点，每dfs一次就是$`O(n)`$。
+   这是自顶向下的方法，因此时间复杂度最差是<img src="./assets/formulas/formula-e472ec35ce3f.svg" alt="O(n^2)">。如果当前的树退化成链表的话，每dfs一个结点，就要遍历一遍它下面的所有结点，每dfs一次就是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
    ```c++
    class Solution {
@@ -47,7 +47,7 @@
 
    用一个参数`sum`维护从根结点到`node`的结点之和。那么以`node`为结尾的路径数，就是`node`祖宗结点里前缀和为`sum - targetSum`的数量。这个前缀和可以用哈希表维护。
 
-   这种方法时间复杂度是$`O(n)`$。
+   这种方法时间复杂度是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
    ```c++
    class Solution {

@@ -28,7 +28,7 @@
 
    此时插入的数据一定是`left_heap`的堆顶。<u>把`left_heap`的堆顶元素放到`right_heap`里</u>，就能同时满足数据大小的要求和数据量的要求。
 
-因此添加数据的时间复杂度是$`O(\log n)`$，求中位数的时间复杂度是$`O(1)`$。
+因此添加数据的时间复杂度是<img src="./assets/formulas/formula-7d3ed143a7df.svg" alt="O(\log n)">，求中位数的时间复杂度是<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">。
 
 ```c++
 class MedianFinder {

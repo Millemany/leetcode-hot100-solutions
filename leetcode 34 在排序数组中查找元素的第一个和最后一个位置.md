@@ -4,7 +4,7 @@
 
 注意要判断空数组的情况。
 
-时间复杂度$`O(\log n)`$。
+时间复杂度<img src="./assets/formulas/formula-7d3ed143a7df.svg" alt="O(\log n)">。
 
 ```c++
 class Solution {

@@ -4,7 +4,7 @@
 
 具体方法就是从 0 开始遍历到`i - 1`。如果存在`j`，同时满足`f[j] == true`且`s.substr(j, i - j)`在词典表内，那么就有`f[i] = true`。
 
-时间复杂度是$`O(n^2)`$。
+时间复杂度是<img src="./assets/formulas/formula-e472ec35ce3f.svg" alt="O(n^2)">。
 
 ```c++
 class Solution {

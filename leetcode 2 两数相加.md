@@ -2,7 +2,7 @@
 
 链表版本的模拟加法。稍微麻烦的一点在于不方便预先知道两个数字谁大谁小，只能一步一步走。
 
-时间复杂度$`O(n)`$，空间复杂度$`O(1)`$。
+时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">，空间复杂度<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">。
 
 ```c++
 class Solution {

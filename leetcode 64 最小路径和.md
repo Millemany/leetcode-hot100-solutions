@@ -1,6 +1,6 @@
 # leetcode 64 最小路径和
 
-同理 [leetcode 62 不同路径](<./leetcode 62 不同路径.md>)。时间复杂度$`O(mn)`$。
+同理 [leetcode 62 不同路径](<./leetcode 62 不同路径.md>)。时间复杂度<img src="./assets/formulas/formula-84614e269da7.svg" alt="O(mn)">。
 
 ```c++
 class Solution {

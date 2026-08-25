@@ -25,7 +25,7 @@
 
   根据上面的约定，`nums[r]`在交换之前是没有整理的数字，因此`nums[r]`交换之前是未定的数字。`nums[i]`交换之后也是未定的，因此`i`不能变动，要继续讨论。
 
-时间复杂度是$`O(n)`$。
+时间复杂度是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

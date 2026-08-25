@@ -16,9 +16,9 @@ x₃ = nums[x₂]
 
 因为`nums`元素取值范围是`[1, n]`，而`[1, n]`中每一个结点都有一个`nums`值，所以这个链表可以一直走下去。
 
-而又因为`nums`只有`n`个不同的取值，所以一定会存在两个位置$`x_i`$和$`x_j`$，满足$`x_i=x_j=y`$。
+而又因为`nums`只有`n`个不同的取值，所以一定会存在两个位置<img src="./assets/formulas/formula-4f0f1e4a3167.svg" alt="x_i">和<img src="./assets/formulas/formula-aab9db6e2863.svg" alt="x_j">，满足<img src="./assets/formulas/formula-32f19f951592.svg" alt="x_i=x_j=y">。
 
-这就说明从$`y`$出发一定会再次访问到$`y`$。
+这就说明从<img src="./assets/formulas/formula-a1fce4363854.svg" alt="y">出发一定会再次访问到<img src="./assets/formulas/formula-a1fce4363854.svg" alt="y">。
 
 因此一定有环。
 
@@ -26,7 +26,7 @@ x₃ = nums[x₂]
 
 所以本题可以使用 [leetcode 142 环形链表 II](<./leetcode 142 环形链表 II.md>) 的做法。
 
-时间复杂度是$`O(n)`$。
+时间复杂度是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

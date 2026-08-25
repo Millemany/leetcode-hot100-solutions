@@ -4,7 +4,7 @@
 
 从**不存在更小值的数字**开始向后枚举，这样每段连续序列只会被统计一次。
 
-时间复杂度$`O(n)`$，因为每个元素只会被访问一次。空间复杂度$`O(n)`$。
+时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">，因为每个元素只会被访问一次。空间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

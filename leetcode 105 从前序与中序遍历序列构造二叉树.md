@@ -10,7 +10,7 @@
 
    确定了左右子树的结点数量，就可以确定前序里面的左右子树。最后递归就可以了。
 
-   时间和空间复杂度都是$`O(n)`$。
+   时间和空间复杂度都是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
    ```c++
    class Solution {

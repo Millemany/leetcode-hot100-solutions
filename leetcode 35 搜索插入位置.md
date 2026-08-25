@@ -4,7 +4,7 @@
 
 找的是`>=target`的最小值，因此注意二分的具体实现方法。
 
-时间复杂度是$`O(\log n)`$。
+时间复杂度是<img src="./assets/formulas/formula-7d3ed143a7df.svg" alt="O(\log n)">。
 
 ```c++
 class Solution {

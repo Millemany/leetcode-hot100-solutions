@@ -1,6 +1,6 @@
 # leetcode 200 岛屿数量
 
-1. dfs。时间复杂度是$`O(mn)`$。
+1. dfs。时间复杂度是<img src="./assets/formulas/formula-84614e269da7.svg" alt="O(mn)">。
 
    ```c++
 class Solution {
@@ -32,7 +32,7 @@ class Solution {
    };
    ```
    
-2. bfs。时间复杂度是$`O(mn)`$。
+2. bfs。时间复杂度是<img src="./assets/formulas/formula-84614e269da7.svg" alt="O(mn)">。
 
    ```c++
    class Solution {

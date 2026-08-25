@@ -4,7 +4,7 @@
 
 遍历数组，遇到非零元素就和`nums[j]`交换，然后让`j`后移。这样非零元素的相对顺序不会改变，零会被逐渐交换到末尾。
 
-时间复杂度$`O(n)`$，空间复杂度$`O(1)`$。
+时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">，空间复杂度<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">。
 
 ```c++
 class Solution {

@@ -4,7 +4,7 @@
 
 相同字母的异位词，它们排序之后的结果都是相同的。因此可以用排序之后的结果检索。
 
-时间复杂度是$`O(nm \log m)`$，其中$`m`$是每个字符串的最大长度。
+时间复杂度是<img src="./assets/formulas/formula-8de25539f741.svg" alt="O(nm \log m)">，其中<img src="./assets/formulas/formula-62c66a7a5dd7.svg" alt="m">是每个字符串的最大长度。
 
 ```c++
 class Solution {
@@ -26,7 +26,7 @@ public:
 };
 ```
 
-也可以统计每个字符出现的顺序进行哈希，这样时间复杂度就是$`O(nm)`$。
+也可以统计每个字符出现的顺序进行哈希，这样时间复杂度就是<img src="./assets/formulas/formula-c90a7bd57a4e.svg" alt="O(nm)">。
 
 ```c++
 class Solution {

@@ -16,7 +16,7 @@ root到树叶的最大路径 = max(root->left到树叶的最大路径, root->rig
 
 这可以作为 dfs 的返回值进行递归计算。
 
-时间复杂度$`O(n)`$，空间复杂度$`O(n)`$。
+时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">，空间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

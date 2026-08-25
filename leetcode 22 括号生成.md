@@ -2,11 +2,11 @@
 
 暴搜。
 
-如果当前左括号数量小于$`n`$，就可以放左括号。
+如果当前左括号数量小于<img src="./assets/formulas/formula-1b16b1df538b.svg" alt="n">，就可以放左括号。
 
 如果当前右括号数量小于左括号，就可以放右括号。
 
-时间复杂度应该是$`O(nX)`$，其中$`X`$是答案数。根据数学知识可知时间复杂度是$`O(\frac{4^n}{\sqrt n})`$。
+时间复杂度应该是<img src="./assets/formulas/formula-3dfb30a3781f.svg" alt="O(nX)">，其中<img src="./assets/formulas/formula-4b68ab3847fe.svg" alt="X">是答案数。根据数学知识可知时间复杂度是<img src="./assets/formulas/formula-024ae7268506.svg" alt="O(\frac{4^n}{\sqrt n})">。
 
 ```c++
 class Solution {

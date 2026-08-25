@@ -8,7 +8,7 @@
 4. 循环往复前三步，直到队伍为空
 5. 统计出队结点的数量，是否与全体结点数相等。相等的话说明存在拓扑序。
 
-时间复杂度是$`O(m)`$，其中$`m`$是边的数量。
+时间复杂度是<img src="./assets/formulas/formula-4343234bc647.svg" alt="O(m)">，其中<img src="./assets/formulas/formula-62c66a7a5dd7.svg" alt="m">是边的数量。
 
 ```c++
 class Solution {

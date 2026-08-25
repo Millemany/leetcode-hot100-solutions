@@ -2,9 +2,9 @@
 
 这题就是归并排序的链表版本。
 
-1. 自顶向下排序。时间复杂度$`O(n\log n)`$，空间复杂度$`O(\log n)`$。代码好写。
+1. 自顶向下排序。时间复杂度<img src="./assets/formulas/formula-29ea8fc7103f.svg" alt="O(n\log n)">，空间复杂度<img src="./assets/formulas/formula-7d3ed143a7df.svg" alt="O(\log n)">。代码好写。
 
-2. 自底向上排序。时间复杂度$`O(n\log n)`$，空间复杂度$`O(1)`$。不用递归，代码较复杂。
+2. 自底向上排序。时间复杂度<img src="./assets/formulas/formula-29ea8fc7103f.svg" alt="O(n\log n)">，空间复杂度<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">。不用递归，代码较复杂。
 
    具体做法就是先把链表断成长度为1的小段，然后相邻两段之间按序合并。合并后相邻两端再按序合并，依次类推，直到整个链表有序。
 

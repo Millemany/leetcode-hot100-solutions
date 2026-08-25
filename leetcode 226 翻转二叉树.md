@@ -2,7 +2,7 @@
 
 递归翻转左右子树，然后交换当前结点的左右孩子。
 
-时间复杂度$`O(n)`$，递归空间复杂度$`O(n)`$。
+时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">，递归空间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

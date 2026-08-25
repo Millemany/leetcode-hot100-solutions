@@ -8,7 +8,7 @@
 f[i, s] = f[i - 1, s] || f[i - 1, s - nums[i]];
 ```
 
-可以用滚动数组优化空间。时间复杂度$`O(mn)`$，其中$`m = sum/2`$。
+可以用滚动数组优化空间。时间复杂度<img src="./assets/formulas/formula-84614e269da7.svg" alt="O(mn)">，其中<img src="./assets/formulas/formula-c54a860e226a.svg" alt="m = \mathrm{sum}/2">。
 
 ```c++
 class Solution {

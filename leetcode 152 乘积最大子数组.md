@@ -12,7 +12,7 @@
 
 不断维护`f[i - 1]`和`g[i - 1]`就可以了，因此只用两个变量就可以解决问题。
 
-时间复杂度是$`O(n)`$。
+时间复杂度是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

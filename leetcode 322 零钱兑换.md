@@ -2,7 +2,7 @@
 
 本题思路参考 [leetcode 279 完全平方数](<./leetcode 279 完全平方数.md>) ，两题都是完全背包问题，思路完全一致。
 
-时间复杂度是$`O(mn)`$，其中$`m`$是钱币种类数，$`n`$是总金额。
+时间复杂度是<img src="./assets/formulas/formula-84614e269da7.svg" alt="O(mn)">，其中<img src="./assets/formulas/formula-62c66a7a5dd7.svg" alt="m">是钱币种类数，<img src="./assets/formulas/formula-1b16b1df538b.svg" alt="n">是总金额。
 
 ```c++
 class Solution {

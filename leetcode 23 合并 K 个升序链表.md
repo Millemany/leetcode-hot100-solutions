@@ -4,7 +4,7 @@
 
    把每个链表的头结点放入小根堆。每次取出值最小的结点接到答案后面，再把它的后继放入堆。
 
-   设所有链表共有$`n`$个结点，链表数量为$`k`$。时间复杂度$`O(n\log k)`$，空间复杂度$`O(k)`$。
+   设所有链表共有<img src="./assets/formulas/formula-1b16b1df538b.svg" alt="n">个结点，链表数量为<img src="./assets/formulas/formula-8254c329a928.svg" alt="k">。时间复杂度<img src="./assets/formulas/formula-19f0c25b9706.svg" alt="O(n\log k)">，空间复杂度<img src="./assets/formulas/formula-e9540ae1ed1b.svg" alt="O(k)">。
 
    ```c++
    struct Cmp{
@@ -43,7 +43,7 @@
 
    合并两个有序链表是经典的归并操作。使用分治，先分别合并左右两半链表，再合并两个结果。
 
-   时间复杂度$`O(n\log k)`$，递归栈空间复杂度$`O(\log k)`$。
+   时间复杂度<img src="./assets/formulas/formula-19f0c25b9706.svg" alt="O(n\log k)">，递归栈空间复杂度<img src="./assets/formulas/formula-8a15ad690eae.svg" alt="O(\log k)">。
 
    ```c++
    class Solution {

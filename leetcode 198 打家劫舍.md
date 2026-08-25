@@ -21,7 +21,7 @@ max(f[n - 1, 0], f[n - 1, 1]);
 
 由于每次计算`f[i]`都只用到了`f[i - 1]`的值，所以我们可以不用数组，而只用两个变量维护`f[i - 1]`的值，每次更新即可。
 
-时间复杂度是$`O(n)`$。
+时间复杂度是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

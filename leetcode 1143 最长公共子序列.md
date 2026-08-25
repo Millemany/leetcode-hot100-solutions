@@ -6,7 +6,7 @@
 
 如果`text1[i - 1] == text2[j - 1]`，则还需要考虑`f[i][j] = max(f[i][j], f[i - 1][j - 1] + 1)`。
 
-时间复杂度$`O(mn)`$。
+时间复杂度<img src="./assets/formulas/formula-84614e269da7.svg" alt="O(mn)">。
 
 ```c++
 class Solution {

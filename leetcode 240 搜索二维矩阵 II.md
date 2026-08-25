@@ -1,8 +1,8 @@
 # leetcode 240 搜索二维矩阵 II
 
-1. 暴力搜索。$`O(mn)`$。
+1. 暴力搜索。<img src="./assets/formulas/formula-84614e269da7.svg" alt="O(mn)">。
 
-2. 对每一行进行二分查找。时间复杂度$`O(m\log n)`$。
+2. 对每一行进行二分查找。时间复杂度<img src="./assets/formulas/formula-14961d3abb17.svg" alt="O(m\log n)">。
 
    ```c++
    class Solution {
@@ -40,7 +40,7 @@
 
    通过这种方法可以一次排除掉一行或者一列。
 
-   如果被比较的元素叫做`matrix[i][j]`，那么`(i, j)`最多往下走`n`步，往左走`m`步。时间复杂度是$`O(m + n)`$。
+   如果被比较的元素叫做`matrix[i][j]`，那么`(i, j)`最多往下走`n`步，往左走`m`步。时间复杂度是<img src="./assets/formulas/formula-f51e2807542f.svg" alt="O(m + n)">。
 
    ```c++
    class Solution {

@@ -4,7 +4,7 @@
 
 具体思路就是同时遍历两个链表，把值更小的一个作为下一个节点。
 
-时间复杂度$`O(m+n)`$，空间复杂度$`O(1)`$。
+时间复杂度<img src="./assets/formulas/formula-a348af989ef7.svg" alt="O(m+n)">，空间复杂度<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">。
 
 ```c++
 class Solution {

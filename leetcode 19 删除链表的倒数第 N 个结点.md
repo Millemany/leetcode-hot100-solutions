@@ -3,7 +3,7 @@
 
 应当注意，删除头结点和删除其他结点不同。此外，最后应该定位到倒数第 N + 1 个结点，这样才能删掉第 N 个结点。
 
-时间复杂度$`O(n)`$，空间复杂度$`O(1)`$。
+时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">，空间复杂度<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">。
 
 
 ```c++

@@ -2,7 +2,7 @@
 
 对于第`i`行第`j`列元素`f[i, j]`，有`f[i, j] = f[i - 1, j - 1] + f[i - 1, j]`。
 
-时间复杂度$`O(n^2)`$，与生成元素数量的数量级相同。
+时间复杂度<img src="./assets/formulas/formula-e472ec35ce3f.svg" alt="O(n^2)">，与生成元素数量的数量级相同。
 
 ```c++
 class Solution {

@@ -30,4 +30,4 @@ public:
 };
 ```
 
-时间复杂度是$`O(n)`$。每个结点最多访问一次，每次访问的工作量是$`O(1)`$。
+时间复杂度是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。每个结点最多访问一次，每次访问的工作量是<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">。

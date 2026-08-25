@@ -15,7 +15,7 @@ Boyer-Moore 投票算法。
 
 具体证明略。
 
-时间复杂度是$`O(n)`$。
+时间复杂度是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

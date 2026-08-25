@@ -17,7 +17,7 @@
   - 如果是的话，则有`f[i] = 2 + f[i - 1] + f[i - f[i - 1] - 1]`。
   - 否则，`f[i] = 0`。
 
-时间复杂度$`O(n)`$。
+时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

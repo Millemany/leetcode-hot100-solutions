@@ -4,7 +4,7 @@
 
 最后还要判断栈是否为空，防止存在多余的左括号。
 
-时间复杂度$`O(n)`$，空间复杂度$`O(n)`$。
+时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">，空间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

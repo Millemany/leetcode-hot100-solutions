@@ -6,7 +6,7 @@
 
 否则，**还**需要满足`f[j + 1][i - 1] == true`。
 
-时间复杂度是$`O(n^2)`$。
+时间复杂度是<img src="./assets/formulas/formula-e472ec35ce3f.svg" alt="O(n^2)">。
 
 ```c++
 class Solution {

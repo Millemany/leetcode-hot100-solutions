@@ -24,7 +24,7 @@
 
 `f[0][i] = i`。道理相同。
 
-时间复杂度是$`O(mn)`$，`m`和`n`分别是两个字符的长度。
+时间复杂度是<img src="./assets/formulas/formula-84614e269da7.svg" alt="O(mn)">，`m`和`n`分别是两个字符的长度。
 
 ```c++
 class Solution {

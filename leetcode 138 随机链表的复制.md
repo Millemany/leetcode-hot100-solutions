@@ -4,7 +4,7 @@
 
 因此可以**把复制结点插入原结点后面**。这样原结点`p`对应的复制结点就是`p->next`，复制结点的随机指针就是`p->random->next`。
 
-最后把交错的两条链表拆开。时间复杂度$`O(n)`$，额外空间复杂度$`O(1)`$。
+最后把交错的两条链表拆开。时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">，额外空间复杂度<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">。
 
 ```c++
 class Solution {

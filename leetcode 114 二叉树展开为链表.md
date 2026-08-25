@@ -6,12 +6,12 @@
 - 找到左子树的最后一个结点。
    - 把右子树插到左子树屁股后面，左子树变成右子树。
 
-   时间复杂度$`O(n)`$。空间复杂度也是$`O(n)`$。
+   时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。空间复杂度也是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
    代码暂略
 
 
-2. 空间复杂度$`O(1)`$的做法（不算递归空间）
+2. 空间复杂度<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">的做法（不算递归空间）
 
    这种做法的具体流程是，对于每个结点：
 

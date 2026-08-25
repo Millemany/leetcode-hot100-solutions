@@ -2,7 +2,7 @@
 
 BFS。用哈希表记录每个结点所在层数，当队首结点的层数和当前结点不同时，说明当前层已经遍历完，把这一层的答案加入结果。
 
-时间复杂度$`O(n)`$，空间复杂度$`O(n)`$。
+时间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">，空间复杂度<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

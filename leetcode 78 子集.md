@@ -2,7 +2,7 @@
 
 对于所有的元素，有选和不选两种选择。
 
-时间复杂度是$`O(n2^n)`$。$`2^n`$是子集个数，搜索到每个子集的时间复杂度是$`O(n)`$。
+时间复杂度是<img src="./assets/formulas/formula-fc432f7de52c.svg" alt="O(n2^n)">。<img src="./assets/formulas/formula-e8a3fed33f2f.svg" alt="2^n">是子集个数，搜索到每个子集的时间复杂度是<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">。
 
 ```c++
 class Solution {

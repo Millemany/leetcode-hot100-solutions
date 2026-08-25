@@ -61,7 +61,7 @@
 
 2. 不用辅助栈
 
-   辅助栈需要$`O(n)`$的额外空间。本题也可以只用$`O(1)`$空间解决问题，用一个变量`min_val`存储当前的最小值。
+   辅助栈需要<img src="./assets/formulas/formula-387008096a41.svg" alt="O(n)">的额外空间。本题也可以只用<img src="./assets/formulas/formula-4a137b861e8d.svg" alt="O(1)">空间解决问题，用一个变量`min_val`存储当前的最小值。
 
    但如果仅仅这样做，就无法确定`min_val`弹出之后的最小值。
 

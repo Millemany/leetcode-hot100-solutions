@@ -18,17 +18,13 @@
 下面就可以进行二分。还是用`l = 0, r = n - 1`进行二分。但是数组的真正开头是在下标`k`的地方，结尾是在下标`k - 1`的地方。因此`l`和`r`都是为了方便二分而使用的虚拟下标，需要把它们映射到真实的数组下标。
 
 根据数学知识可知，如果`i`是`nums`某元素的真实下标，`j`是其在二分查找中的虚拟下标，那么它们的关系是：
-```math
-j = (i +n-k) \mod{n}
-```
+<p align="center"><img src="./assets/formulas/formula-0b920c2a5a8b.svg" alt="j = (i + n - k) \bmod n"></p>
 
-```math
-i = (j + k)\mod{n}
-```
+<p align="center"><img src="./assets/formulas/formula-90583a062dc9.svg" alt="i = (j + k) \bmod n"></p>
 
 这样就可以做了。
 
-时间复杂度是$`O(\log n)`$。
+时间复杂度是<img src="./assets/formulas/formula-7d3ed143a7df.svg" alt="O(\log n)">。
 
 ```c++
 class Solution {
